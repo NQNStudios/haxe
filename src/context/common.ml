@@ -578,6 +578,7 @@ let get_config com =
 			pf_static = false;
 			pf_capture_policy = CPLoopVars;
 			pf_uses_utf16 = false;
+			pf_supports_threads = true;
 			pf_exceptions = {
 				ec_native_throws = [
 					["python";"Exceptions"],"BaseException";
